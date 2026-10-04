@@ -1,9 +1,9 @@
 import { Scale, WifiOff } from 'lucide-react'
 
 const samples = [
-  { label: 'Amostra 1', count: 412 },
-  { label: 'Amostra 2', count: 398 },
-  { label: 'Amostra 3', count: 405 },
+  { label: 'Amostra 1', count: 80 },
+  { label: 'Amostra 2', count: 83 },
+  { label: 'Amostra 3', count: 81 },
 ]
 
 const highlights = [
@@ -80,16 +80,16 @@ export function Estimate() {
           </dl>
           <div className="flex items-center justify-between border-b border-navy-foreground/10 pb-4 text-sm">
             <span className="text-navy-foreground/70">Média por amostra</span>
-            <span className="font-semibold tabular-nums">405 PLs</span>
+            <span className="font-semibold tabular-nums">81 PLs</span>
           </div>
           <div className="flex items-center justify-between border-b border-navy-foreground/10 pb-4 text-sm">
             <span className="text-navy-foreground/70">Volume informado</span>
-            <span className="font-semibold tabular-nums">500 L</span>
+            <span className="font-semibold tabular-nums">5 L</span>
           </div>
           <div className="flex flex-col gap-1 rounded-2xl bg-primary p-5 text-primary-foreground">
             <span className="text-sm">Estimativa total</span>
             <span className="font-display text-4xl font-bold tabular-nums md:text-5xl">
-              2.025.000
+              4.050
             </span>
             <span className="text-sm">pós-larvas</span>
           </div>
@@ -98,7 +98,7 @@ export function Estimate() {
               <Scale className="size-4 text-primary" aria-hidden="true" />
               Conferência pelo peso total
             </span>
-            <span className="font-semibold tabular-nums">≈ 2.010.000</span>
+            <span className="font-semibold tabular-nums">≈ 4.053</span>
           </div>
         </figure>
       </div>
