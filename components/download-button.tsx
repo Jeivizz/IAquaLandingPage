@@ -12,7 +12,6 @@ export function DownloadButton({
   return (
     <a
       href={appDownload.url}
-      download={appDownload.fileName}
       className={cn(
         'group flex w-fit items-center gap-3 rounded-xl px-5 py-3 shadow-sm transition hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2',
         variant === 'primary'
