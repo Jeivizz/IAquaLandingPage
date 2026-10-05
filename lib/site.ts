@@ -1,5 +1,5 @@
 export const appDownload = {
-  url: '/downloads/iaqua.apk',
+  url: 'https://github.com/Jeivizz/ShrimpPLCounter/releases/download/v1.0.0/iaqua-v1-release.apk',
   fileName: 'iaqua.apk',
   platform: 'Android',
   version: '1.0.0',
