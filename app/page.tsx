@@ -6,6 +6,7 @@ import { HowItWorks } from '@/components/how-it-works'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
 import { UseCases } from '@/components/use-cases'
+import { GrowthTracking} from "@/components/growth-tracking";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <HowItWorks />
         <Estimate />
+        <GrowthTracking />
         <UseCases />
         <Faq />
         <DownloadCta />
